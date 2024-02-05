@@ -1,0 +1,26 @@
+.aside {
+    display: flex;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1p solid lightgray;
+}
+
+.author {
+    width: 50%;
+    margin-right: 30px;
+    padding: 15px;
+    background-color: antiquewhite;
+
+    &__img {
+        width: 150px; 
+        height: 150px;
+        border-radius: 50%; //hace la imagen un círculo
+        object-fit: cover; //amplia la imagen para que se ajuste bien
+    }
+}
+
+.lists {
+    &__sections {
+        margin-bottom: 10px;
+    }
+}
