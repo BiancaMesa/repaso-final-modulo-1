@@ -1,69 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso Final Módulo 1</title>
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
-
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+  <link rel="stylesheet" href="./assets/index-373530e3.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+    <img class="header__logo" src="./images/logo-adalab.png" alt="logo-adalab">
+    <h1 class="header__title">Título del blog</h1>
 </header>
+        <main class="main">
+    <!-- Hemos puesto el text="Lorem" pero no lo estamos usando -->
+    <article class="article">
+    <h2 class="article__title">Título del post 1</h2>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <!-- Opciones para poner el párrafo -->
+    <!-- Option 1 -->
+    <!-- <p> Lorem1</p> -->
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+    <!-- Option 2 -->
+    <p> Pink Himalayan Salt spiritual healing Flower of Life divination angels empath. Divine shamantic joy sage stones oracle herbalist Reiki reincarnation chakras. Tarot sage crystals Nepal love Pink Himalayan Salt practitioner shamantic divination dance .</p>
+</article>
+    <article class="article">
+    <h2 class="article__title">Título del post 2</h2>
 
-    </li>
-  </ul>
+    <!-- Opciones para poner el párrafo -->
+    <!-- Option 1 -->
+    <!-- <p> Lorem2</p> -->
+
+    <!-- Option 2 -->
+    <p> Pink Himalayan Salt spiritual healing Flower of Life divination angels empath. Divine shamantic joy sage stones oracle herbalist Reiki reincarnation chakras. Tarot sage crystals Nepal love Pink Himalayan Salt practitioner shamantic divination dance .</p>
+</article>
+    <article class="article">
+    <h2 class="article__title">Título del post 3</h2>
+
+    <!-- Opciones para poner el párrafo -->
+    <!-- Option 1 -->
+    <!-- <p> Lorem3</p> -->
+
+    <!-- Option 2 -->
+    <p> Pink Himalayan Salt spiritual healing Flower of Life divination angels empath. Divine shamantic joy sage stones oracle herbalist Reiki reincarnation chakras. Tarot sage crystals Nepal love Pink Himalayan Salt practitioner shamantic divination dance .</p>
+</article>
 </main>
+        <aside class="aside">
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <!-- CAJA 1 -->
+    <div class="author">
 
-  </small>
-</footer>
-
+        <img class="author__img" src="./images/beach.jpg" alt="beach-picture">
+        <h3>Autor</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consequatur accusantium excepturi, itaque perferendis repellendus, accusamus velit nulla aperiam reprehenderit libero ratione distinctio. Quod, debitis. Quidem natus eius libero sed.</p>
     </div>
-    <script src="./js/main.js"></script>
-  </body>
+
+    <!-- CAJA 2 = LISTAS -->
+    <div class="lists">
+
+        <!-- Lista 1 -->
+        <ul class="lists__sections">
+            <li>Sección 1</li>
+            <li>Sección 2</li>
+            <li>Sección 3</li>
+            <li>Sección 4</li>
+            <li>Sección 5</li>
+        </ul>
+
+         <!-- Lista 2 -->
+        <ul>
+            <li>Categoría 1</li>
+            <li>Categoría 2</li>
+            <li>Categoría 3</li>
+            <li>Categoría 4</li>
+            <li>Categoría 5</li>
+        </ul>
+    </div>
+
+</aside>
+        <footer>
+    <p>&Copy 2019 - Título del blog</p>
+</footer>
+    </div>
+</body>
 </html>
